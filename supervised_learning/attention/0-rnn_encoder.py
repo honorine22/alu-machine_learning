@@ -29,7 +29,6 @@ class RNNEncoder(tf.keras.layers.Layer):
             takes in initial hidden state and returns outputs of the encoder
                 and last hidden state of the encoder
     """
-
     def __init__(self, vocab, embedding, units, batch):
         """
         Class constructor

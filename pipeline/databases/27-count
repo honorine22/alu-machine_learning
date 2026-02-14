@@ -1,2 +1,2 @@
-// count documents
+// counts the number of documents in the collection school in MongoDB
 db.school.count()
